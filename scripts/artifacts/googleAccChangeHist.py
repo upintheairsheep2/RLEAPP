@@ -44,6 +44,6 @@ def get_googleAccChangeHist(files_found, report_folder, seeker, wrap_text):
 __artifacts__ = {
         "googleAccChangeHist": (
             "Google Returns Account Change History",
-            (('*/*GoogleAccount.ChangeHistory_*.Preserved/Google Account/*.ChangeHistory.html','*/*GoogleAccount.ChangeHistory_*/Google Account/*.ChangeHistory.html')),
+            (('*/*GoogleAccount.ChangeHistory_*.Preserved/Google Account/*.ChangeHistory.html','*/*GoogleAccount.ChangeHistory_*/Google Account/*.ChangeHistory.html','*/Takeout/Google Account/*.ChangeHistory.html')),
             get_googleAccChangeHist)
 }
