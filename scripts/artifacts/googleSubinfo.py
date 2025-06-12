@@ -44,6 +44,6 @@ def get_googleSubinfo(files_found, report_folder, seeker, wrap_text):
 __artifacts__ = {
         "googleSubinfo": (
             "Google Returns Subscriber Info",
-            (('*/*GoogleAccount.SubscriberInfo_*/Google Account/*.SubscriberInfo.html')),
+            (('*/*GoogleAccount.SubscriberInfo_*/Google Account/*.SubscriberInfo.html','*/Takeout/Google Account/*.SubscriberInfo.html')),
             get_googleSubinfo)
 }
